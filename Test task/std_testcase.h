@@ -46,7 +46,7 @@
 /* SIZE_MAX, int64_t, etc. are in this file on Linux */
 # include <stdint.h>
 #endif
-#include <ctype.h>
+#include    <ctype.h>
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -57,7 +57,6 @@
 # define __STDC_LIMIT_MACROS 1
 
 #define ALLOCA alloca
-#endi
 #endif
 
 #ifdef __cplusplus
